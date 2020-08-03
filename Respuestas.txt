@@ -1,0 +1,6 @@
+¿Qué tipo de patrón usaste para el proyecto?
+Use el patron Mostly Fluid
+¿Por qué decidiste utilizar este patrón y no otro?
+Porque la informacion presentada en la pagina se podia organizar facilmente y de mejor manera que con cualquier otro patron. Ademas responde al flujo natural de lectura occidental
+¿Qué tecnología y/o estrategias usarás para que la maqueta sea responsiva?
+Utilice breakpoints a traves de Media Queries

@@ -1,0 +1,57 @@
+    
+@media (max-width: 1920px){    
+    .navigation{
+        background-color: $verde;
+        position: fixed;
+        height: 100vh;
+        width: 15vw;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav__image{
+        margin-top: 80%;
+        width: 90%;
+    }
+
+    .nav__list{
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .list__item{
+        text-decoration: none;
+        font-weight: 700;
+        padding: 3% 0%;
+
+        &:hover{
+            font-weight: 900;
+        }
+    }
+}    
+
+@media (max-width: 768px){    
+    .navigation{
+        background-color: $verde;
+        position: fixed;
+        z-index: +1;
+        width: 100vw;
+        height: 10vh;
+        text-align: center;
+    }
+
+    .nav__image{
+        display: none;
+    }
+
+    .list__item{
+        display: none;
+    }
+
+    .list__bars{
+        margin-top: 2%;
+    }
+}    

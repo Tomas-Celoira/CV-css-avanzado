@@ -1,0 +1,17 @@
+
+@media (max-width: 1920px){
+    body {
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+        color: $gris;  
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        display: grid;
+        grid-template-rows: repeat( 2, 1fr);  
+    }
+    
+}
+
